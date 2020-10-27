@@ -1,0 +1,27 @@
+.container	{
+	width: 500px;
+	display: flex;
+	justify-content: flex-end;
+	background-color: yellow
+}
+
+#item-1 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: red;
+	width: 70px
+}
+
+#item-2 {
+	flex-grow: 0;
+	background-color: green;
+	flex-shrink: 10;
+	width: 100px
+}
+
+#item-3 {
+	flex-grow: 0;
+	background-color: blue;
+	flex-shrink: 5;
+	width: 70px
+}
